@@ -1,6 +1,6 @@
 # instagram_clone
 
-Instagram clone build with flutter
+Instagram clone built with flutter
 
 ## Getting Started
 

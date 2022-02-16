@@ -1,4 +1,7 @@
 
+
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,11 +21,16 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Instagram'),
-
-      ),
-      body: Text('Test'),
+     body: SafeArea(
+        child: Center(
+          child: Text(
+            "Instagram",
+            style: TextStyle(fontSize: 25),
+            textAlign: TextAlign.center,
+          ),
+        )
+       ,
+     ),
 
     );
 
